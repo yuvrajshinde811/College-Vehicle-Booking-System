@@ -1,0 +1,22 @@
+# Maven build artifacts
+target/
+**/target/
+
+# Local sensitive configuration and credentials
+**/db.properties
+!**/db.properties.example
+.env
+local.properties
+
+# Logs
+*.log
+logs/
+
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Eclipse temporary/derived metadata
+.metadata/
+tmp/

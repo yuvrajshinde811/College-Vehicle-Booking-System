@@ -1,0 +1,6 @@
+# College Vehicle Booking System - Database Configuration Example
+# Copy this file to db.properties and set your local credentials
+db.url=jdbc:mysql://localhost:3306/college_vehicle_booking?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.username=root
+db.password=YOUR_LOCAL_MYSQL_PASSWORD_HERE
+db.driver=com.mysql.cj.jdbc.Driver
